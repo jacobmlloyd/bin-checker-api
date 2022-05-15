@@ -1,0 +1,15 @@
+{
+    "sql": {
+        "username": "root",
+        "password": "password"
+    },
+    "MongoDB": {
+        "username": "root",
+        "password": "password",
+        "host": "MYMONGODATABASE.mongo.ondigitalocean.com",
+        "port": "27017",
+        "database": "MONGODATABASE",
+        "protocol": "mongodb+srv",
+        "connection_string": "mongodb+srv://root:password@MYMONGODATABASE.mongo.ondigitalocean.com/COLLECTION?authSource=admin&replicaSet=DATABASENAME&tls=true&tlsCAFile="
+    }
+}
