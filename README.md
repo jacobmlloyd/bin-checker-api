@@ -2,9 +2,14 @@
 # BIN/IIN Checker API
 
 This application hosts a RestFul API using Python's Flask module. It uses publicly available
-(and slightly out-of-date) BIN/IIN information that has been compiled into a MongoDB. The 
-main goal of this project was to make a BIN checker that had accurate US Prepaid Gift Card
+(and slightly out-of-date) BIN/IIN information that has been compiled into a MongoDB. A BIN (Bank Identification Number)
+is a 6-8 digit number that identifies the issuing bank of a certain debit/credit card.
+The main goal of this project was to make a BIN checker that had accurate US Prepaid Gift Card
 information. The Prepaid Gift Card information was inputted manually into the database.
+
+Finding a free BIN Checker that is accurate is impossible. The BIN information that is supplied may not be
+100% accurate but this database and application allows the opportunity to create your own BIN database easily
+in which you can manually update BIN numbers to ensure it stays up to date. 
 
 ## Data Sources
 
@@ -12,10 +17,6 @@ information. The Prepaid Gift Card information was inputted manually into the da
  - [iannuttall](https://github.com/iannuttall/binlist-data)
  - The information in both lists above has been modified to fit.
  - Special thank you to [Thomas Hollahan](https://github.com/Uniqxe/) for helping update some BIN data.
-## Demo
-
-Insert gif or link to demo
-
 
 ## API Reference
 
