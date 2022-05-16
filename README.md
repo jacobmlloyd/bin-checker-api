@@ -12,10 +12,6 @@ information. The Prepaid Gift Card information was inputted manually into the da
  - [iannuttall](https://github.com/iannuttall/binlist-data)
  - The information in both lists above has been modified to fit.
  - Special thank you to [Thomas Hollahan](https://github.com/Uniqxe/) for helping update some BIN data.
-## Demo
-
-Insert gif or link to demo
-
 
 ## API Reference
 
